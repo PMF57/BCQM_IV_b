@@ -1,0 +1,26 @@
+output_dir: outputs/toy_run
+random_seed: 12345
+
+simulation:
+  n_trajectories: 64
+  n_steps: 4096
+  dt: 1.0
+  w_coh_list: [50.0, 100.0, 200.0, 400.0]
+
+analysis:
+  window: "hann"
+  segment_length: 1024
+  overlap: 0.5
+  reference_frequency_index: 5
+
+graph:
+  n_vertices: 128
+  hop_radius: 3
+  initial_condition: "single_site"
+  drift_bias: 0.0
+  edge_deletion_prob: 0.0
+
+storage:
+  save_full_trajectories: false
+  save_summary_stats: true
+  format: "npz"

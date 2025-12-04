@@ -1,0 +1,1 @@
+python3 -m bcqm_cluster_toy.cli run bcqm_cluster_toy/configs/cluster_n_scan.yml

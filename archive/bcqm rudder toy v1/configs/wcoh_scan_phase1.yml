@@ -1,0 +1,27 @@
+output_dir: outputs/wcoh_scan_phase1
+random_seed: 12345
+
+simulation:
+  n_trajectories: 128
+  n_steps: 16384
+  dt: 1.0
+  # Choose a range where dt/Wcoh is not vanishingly small, so rho changes noticeably
+  w_coh_list: [5.0, 10.0, 20.0, 40.0, 80.0, 160.0]
+
+graph:
+  n_vertices: 512
+  hop_radius: 1          # still nearest-neighbour; hop radius is implicit in adjacency
+  initial_condition: "single_site"
+  drift_bias: 0.0
+  edge_deletion_prob: 0.0
+
+analysis:
+  window: "hann"
+  segment_length: 2048
+  overlap: 0.5
+  reference_frequency_index: 5
+
+storage:
+  save_full_trajectories: false
+  save_summary_stats: true
+  format: "npz"

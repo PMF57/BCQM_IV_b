@@ -1,0 +1,14 @@
+# bcqm_cluster_toy/configs/cluster_n_scan.yml
+
+simulation:
+  dt: 1.0           # dimensionless time step (matches bcqm_toy_3 style)
+  n_steps: 16384    # length of each trajectory
+  n_ensembles: 64   # number of independent realisations
+  seed: 12345       # base RNG seed
+
+cluster:
+  N_values: [2, 4, 8, 16, 32, 64, 128]
+  label: cluster_n_scan_v1
+
+output:
+  base_dir: outputs_cluster
