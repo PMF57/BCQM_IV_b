@@ -1,4 +1,4 @@
-# BCQM_IV_B — Inertial Noise Toy Models for BCQM IV\_b
+# BCQM_IV_b — Inertial Noise Toy Models for BCQM IV\_b
 
 This repository contains the numerical toy models and testing pipeline
 used in the **Boundary–Condition Quantum Mechanics IV\_b** work on
@@ -23,7 +23,7 @@ validation” appendix of the BCQM IV\_b manuscript.
 At the time of writing the repository contains:
 
 ```text
-BCQM_IV_B/
+BCQM_IV_b/
   bcqm_toy_3/              # canonical, W_coh-blind control toy
   bcqm_cluster_toy/        # independent-probe cluster COM toy
   archive/                 # archived toy models (positive/negative controls)
