@@ -1,5 +1,7 @@
 # BCQM_IV_b — Inertial Noise Toy Models for BCQM IV\_b
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17815303.svg)](https://doi.org/10.5281/zenodo.17815303)
+
 This repository contains the numerical toy models and testing pipeline
 used in the **Boundary–Condition Quantum Mechanics IV\_b** work on
 inertial noise and the coherence horizon \(W_{\mathrm{coh}}\).
